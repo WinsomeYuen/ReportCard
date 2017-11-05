@@ -1,0 +1,12 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Report Card</string>
+
+    <string name="category_maths">Maths</string>
+
+    <string name="category_english">English</string>
+
+    <string name="category_chemistry">Chemistry</string>
+
+    <string name="category_art">Art</string>
+</resources>

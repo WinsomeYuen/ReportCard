@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.reportcard.MainActivity">
+
+    <!-- Chemistry category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:height="0dp"
+        android:background="@color/category_chemistry">
+        <TextView
+            android:id="@+id/chemistry"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:drawablePadding="6dp"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_chemistry" />
+    </FrameLayout>
+    <!-- Maths category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:height="0dp"
+        android:background="@color/category_maths">
+        <TextView
+            android:id="@+id/maths"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:drawablePadding="6dp"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_maths" />
+    </FrameLayout>
+    <!-- English category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:height="0dp"
+        android:background="@color/category_english">
+        <TextView
+            android:id="@+id/english"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:drawablePadding="6dp"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_english" />
+    </FrameLayout>
+    <!-- Art category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:height="0dp"
+        android:background="@color/category_art">
+        <TextView
+            android:id="@+id/art"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:drawablePadding="6dp"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_art" />
+    </FrameLayout>
+
+</LinearLayout>
